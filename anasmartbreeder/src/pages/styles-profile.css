@@ -1,0 +1,17 @@
+.nome-user h2{
+    margin-left: 0;
+    margin-right: auto;
+    color:#1F3542;
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nome-user h2 span{
+    color:#1F3542;
+    font-family: 'Heebo';
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 1px 2px 2px #48747c;
+}
+

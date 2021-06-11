@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+h2{
+  margin-left: 50px;
+  margin-right: auto;
+  color:#1F3542;
+  font-family: 'Heebo';
+  font-weight: bold;
+  font-size: 60px;
+}
+
+h2 span{
+  color:#1F3542;
+  font-family: 'Heebo';
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: 1px 2px 2px #48747c;
+}
+
+.menu ul li{
+  display:inline-block;
+  padding-top: 10px;
+}
+
+.menu ul li a{
+  margin-left: auto;
+  text-decoration: none;
+  color: #1F3542;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu ul li:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.menu ul li a span{
+  font-weight: bolder;
+}
+
+.texto-1{
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-top: 112px;
+  padding-left: 50px;
+}
+
+.texto-2{
+  padding-left: 50px;
+  color: #5999AF;
+  font-weight: bolder;
+}
+
+.texto-2 span{
+    color: #FFFFFF;;
+}
+
+.botao {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  font-size: 1.2rem;
+  color: #48747c;
+  cursor: pointer;
+  position: relative;
+  width: 244px;
+  height: 64px;
+  left: 50px;
+  top: -5px;
+  border-radius: 55px;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+ 
+.botao:hover{
+  transition: all 0.3s ease;
+  transition-delay: 0.10s;
+  color: #5999AF;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.Header-logo{
+  position: absolute;
+  left: 760px;
+  top: 200px;
+  width: 560px;
+  height: 415px;
+}
+
+.rodape{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+

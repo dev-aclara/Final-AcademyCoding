@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.corpo{
+    padding-top: 150px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.signup-box{
+   width: 550px;
+    padding: 90px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(305deg, #757270 0, #4c5459 25%, #1f3542 50%, #00192c 75%, #00001b 100%);
+    text-align: center;
+    box-shadow: 10px 5px 5px;
+    border-radius: 24px;
+}
+
+.SignUp{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-weight: 500;
+    text-shadow: 10px 5px 5px black;
+}
+
+.avisinho{
+    text-align: center;
+    color: white;
+    text-shadow: 10px 5px 5px black;
+}
+
+.form-register{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.form-register label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #808080;
+}
+
+.form-register input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #1F3542;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    box-shadow: 10px 5px 5px black;
+}
+
+.form-register input[type="text"]:focus, .form-register input[type="password"]:focus, .form-register input[type="number"]:focus{
+    width: 350px;
+    border-color:#3e3187 ;
+}
+
+.form-register input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3e3187;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+}
+
+.form-register input[type="submit"]:hover{
+    background: #3e3187;
+}
+
+
