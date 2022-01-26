@@ -4,6 +4,11 @@
 ![academy-coding-2 0](https://user-images.githubusercontent.com/57874018/151084520-7a266d3e-974e-4563-9f4c-6c820a15f118.png)
   <p align="center"> O Academy Coding é um desafio proposto pela Smartbreeder, em parceria com a UniFAI, para os estudantes dos cursos de Tecnologia da Informação (TI) do Centro Universitário. </p>
 </h3>
+<p align="center">
+ <a href="https://www.linkedin.com/in/ana-clara-mansano-5051011ab/"><img alt="Made by Ana Clara" src="https://img.shields.io/badge/made%20by-Ana Clara Mansano-%23fc8406"></a>
+ <a href="LICENSE"><img alt="LICENSE" src="https://img.shields.io/badge/license-MIT-%23fc8406"></a>
+</p>
+
 
 ## 💻 O projeto
 
